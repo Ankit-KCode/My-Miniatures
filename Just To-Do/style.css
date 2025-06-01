@@ -90,3 +90,20 @@ ul li.checked::before{
     background-image: url(./Media/check.png);
 }
 
+/* -------------------- For Delete Task icon (JavaScript Side)----------------------------*/
+ul li span{
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    color: #00253e;
+    font-size: 24px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+}
+
+ul li span:hover{
+    background: rgba(255, 0, 0, 0.201);
+}
